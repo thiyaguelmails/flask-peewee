@@ -27,7 +27,7 @@ setup(
             'tests/*/*.html',
         ],
     },
-    zip_safe=False,
+    zip_safe=True,
     platforms='any',
     install_requires=requirements,
     classifiers=[
