@@ -2,7 +2,7 @@ from __future__ import with_statement
 
 import datetime
 
-from flask import g
+# from flask import g
 from flask import request
 from flask import session
 from flask import url_for
