@@ -7,4 +7,4 @@ default_task = "publish"
 
 @init
 def set_properties(project):
-    project.set_property("dir_source_main_python", "./example")
+    project.set_property("dir_source_main_python", "$WORKSPACE/flask-peewee")
